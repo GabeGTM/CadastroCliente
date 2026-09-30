@@ -38,26 +38,27 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(122, 80);
+            this.textBox1.Location = new System.Drawing.Point(112, 84);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(312, 30);
+            this.textBox1.Size = new System.Drawing.Size(259, 30);
             this.textBox1.TabIndex = 24;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // codigoTexto
             // 
             this.codigoTexto.AutoSize = true;
             this.codigoTexto.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codigoTexto.Location = new System.Drawing.Point(38, 87);
+            this.codigoTexto.Location = new System.Drawing.Point(51, 91);
             this.codigoTexto.Name = "codigoTexto";
-            this.codigoTexto.Size = new System.Drawing.Size(78, 23);
+            this.codigoTexto.Size = new System.Drawing.Size(55, 23);
             this.codigoTexto.TabIndex = 23;
-            this.codigoTexto.Text = "Código:";
+            this.codigoTexto.Text = "CPF:";
             // 
             // excluirCliente
             // 
             this.excluirCliente.AutoSize = true;
             this.excluirCliente.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.excluirCliente.Location = new System.Drawing.Point(114, 9);
+            this.excluirCliente.Location = new System.Drawing.Point(87, 13);
             this.excluirCliente.Name = "excluirCliente";
             this.excluirCliente.Size = new System.Drawing.Size(267, 45);
             this.excluirCliente.TabIndex = 22;
@@ -66,7 +67,7 @@
             // Voltar
             // 
             this.Voltar.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Voltar.Location = new System.Drawing.Point(249, 154);
+            this.Voltar.Location = new System.Drawing.Point(209, 157);
             this.Voltar.Name = "Voltar";
             this.Voltar.Size = new System.Drawing.Size(185, 39);
             this.Voltar.TabIndex = 29;
@@ -77,7 +78,7 @@
             // exc
             // 
             this.exc.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exc.Location = new System.Drawing.Point(100, 154);
+            this.exc.Location = new System.Drawing.Point(55, 157);
             this.exc.Name = "exc";
             this.exc.Size = new System.Drawing.Size(143, 40);
             this.exc.TabIndex = 28;
@@ -89,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 246);
+            this.ClientSize = new System.Drawing.Size(467, 246);
             this.Controls.Add(this.Voltar);
             this.Controls.Add(this.exc);
             this.Controls.Add(this.textBox1);
